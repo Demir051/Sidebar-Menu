@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav{
+    height: 300px;
+    width: 200px;
+    background-color: blueviolet;
+    padding: 30px;
+}
+
+ul {
+    list-style: none;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid white;    
+}
+
+li{
+    text-align: right;
+    line-height: 30px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+
+li:hover {
+    background-color: rgb(91, 34, 144);
+    padding: 15px;
+}
+
+
+
+
+
+
